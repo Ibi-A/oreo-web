@@ -1,5 +1,5 @@
 <template>
-  <v-card class="mx-auto" max-width="640">
+  <v-card class="mx-auto mb-3" max-width="640">
     <v-carousel>
       <v-carousel-item
         v-for="picture in pictures"

@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h1>Hello World!</h1>
-    <post-card
+    <h1>Posts</h1>
+    <post-management-card
       v-for="post in posts"
       :key="post"
       :id="post.id"
@@ -9,20 +9,20 @@
       :description="post.description"
       :date="post.date"
       :pictures="post.pictures"
-      />
+    />
   </div>
 </template>
 
 <script>
-import Posts from '../data/posts.json'
-import PostCard from "../components/PostCard.vue";
+import Posts from "../data/posts.json";
+import PostManagementCard from "../components/PostManagementCard.vue";
 
 export default {
   components: {
-    PostCard,
+    PostManagementCard,
   },
   data: () => ({
-    posts: Posts
-  })
+    posts: Posts,
+  }),
 };
 </script>
