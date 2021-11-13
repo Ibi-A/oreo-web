@@ -1,6 +1,5 @@
 <template>
-  <div>
-    <h1>Posts</h1>
+  <v-container>
     <post-management-card
       v-for="post in posts"
       :key="post"
@@ -10,7 +9,7 @@
       :date="post.date"
       :pictures="post.pictures"
     />
-  </div>
+  </v-container>
 </template>
 
 <script>

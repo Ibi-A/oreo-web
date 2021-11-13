@@ -18,8 +18,6 @@
       <div v-show="show">
         <v-divider></v-divider>
         <v-card-text>
-        
-
             <picture-management-list :pictures="pictures"/>
             <v-file-input />
         </v-card-text>
