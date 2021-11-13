@@ -4,7 +4,7 @@
       <v-carousel-item
         v-for="picture in pictures"
         :key="picture"
-        :src="picture.src"
+        :src="picture"
       />
     </v-carousel>
 
