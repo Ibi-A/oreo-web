@@ -5,6 +5,7 @@
       color="primary"
       dark
     >
+      <v-toolbar-title>Oreoooh...</v-toolbar-title>
       <v-spacer></v-spacer>
     </v-app-bar>
 

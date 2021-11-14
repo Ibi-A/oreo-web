@@ -14,26 +14,15 @@
       <v-textarea v-model="description" />
     </v-card-text>
 
-    <v-expand-transition>
-      <div v-show="show">
-        <v-divider></v-divider>
-        <v-card-text>
-            <picture-management-list :pictures="pictures"/>
-            <v-file-input />
-        </v-card-text>
-      </div>
-    </v-expand-transition>
-
     <v-card-actions>
       <v-btn color="success">Update post</v-btn>
       <v-spacer></v-spacer>
-      <v-btn color="error" plain>Delete post</v-btn>
+      <v-btn color="error" plain>Cancel</v-btn>
     </v-card-actions>
   </v-card>
 </template>
 
 <script>
-import PictureManagementList from './PictureManagementList.vue'
 
 export default {
   props: {
