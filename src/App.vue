@@ -25,3 +25,12 @@ export default {
   }),
 };
 </script>
+
+<style lang="scss">
+@import "./sass/variables.scss";
+
+v-app {
+  font-family: $body-font-family !important;
+}
+
+</style>
